@@ -23,7 +23,7 @@ repositories {
 ```
 ```groovy
 dependencies {
-    implementation 'com.yourpackage:slack-error-sender:v0.0.2'
+	implementation 'com.github.dlehddn:slack-error-sender:v0.0.4'
     implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
     implementation 'io.jsonwebtoken:jjwt-impl:0.11.5'
     implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'

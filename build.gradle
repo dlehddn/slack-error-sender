@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'slack'
-version = '0.0.1'
+version = '0.0.4'
 
 java {
     toolchain {
@@ -49,7 +49,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'slack'
             artifactId = 'alarm'
-            version = '0.0.1'
+            version = '0.0.4'
 
             from components.java
         }
